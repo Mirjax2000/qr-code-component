@@ -8,23 +8,12 @@ $debug: false;
 
 // --- colors ---
 $clr10: #ffffff;
-$clr11: #252122;
-$clr12: #D52349;
-$clr13: #5d5d5d;
-$clr14: #221e1ffa;
-$clr15: #827a7c;
-$clr16: #858484;
-$clr17: #2daae4;
-$clr18: #c4376b;
-$clr19: #2b4661;
-$clr20: #888888;
-$clr21: #ffffff0d;
-$clr22: #c5c4c4;
-$clr23: #cce8f4;
-$clr24: #ccc;
-$clr25: #f3f3f3;
-$clr26: #f7f7f7;
-$clr27: #aaa;
+$clr11: #2C7DFA;
+$clr12: #3685FF;
+$clr13: #1F314F;
+$clr14: #7D889E;
+$clr15: #D5E1EF;
+
 
 //current color
 $current-color: currentColor;
@@ -97,7 +86,8 @@ $backroundGradient: (
 
 
 // --- fonts ---
-$font-family-sans: "Source Sans 3", sans-serif;
+$font-family-SourceSans: "Source Sans 3", sans-serif;
+$font-family-Outfit: Outfit, sans-serif;
 
 $font-family-serif: Georgia, Times, 'Times New Roman', serif;
 
@@ -121,51 +111,36 @@ $font-size-80: 80%;
 // --------------------------------
 
 
-// header
-$h1max: rem(48, 0); //48px
+// heading
+$h1max: rem(22, 0); //22px
 $h1mid: rem(32, 10); //32px
 $h1min: rem(32, 20); //16px
 $h1mni: 1.37rem; //22px
-// navigace
-$navmax: 1.331rem; //21.3px
-$navmid: 1.166rem; //18.6px
-$navmin: 1.083rem; //17.3px
-$navmni: .9125rem; //14.6px
+
+// body
+$bodymax: rem(15, 0); //15px
+$bodymid: 1.166rem; //18.6px
+$bodymin: 1.083rem; //17.3px
+$bodymni: .9125rem; //14.6px
+
 // pruhlednej banner
 $banmax: 1.6663rem; //26.6px
 $banmid: 1.4581rem; //23.3px
 $banmin: 1.3538rem; //21.6px
 $banmni: 1.1438rem; //18.3px
-// heading pod iconama
-$h3max: 1.60rem; //25.6px
-$h3mid: 1.40rem; //22.4px
-$h3min: 1.30rem; //20.8
-$h3mni: .912rem; //14.6px
+
 // paragraph
 $pgmax: $navmax; //21.3px
 $pgmid: $navmid; //18.6px
 $pgmin: $navmin; //17.3px
 $pgmni: $navmni; //14.6px
-// gigantic heading
-$ghmax: 3.000rem; //48px
-$ghmid: 2.625rem; //42px
-$ghmin: 1.875rem; //30px
-$ghmni: 1.143rem; //18.3px
-// giginatic subheding
-$ghsubmax: 2.00rem; //32px
-$ghsubmid: 1.75rem; //28px
-$ghsubmin: 1.50rem; //24px
-$ghsubmni: .912rem; //14.6px
-// whiteHeading
-$whmax: 2.333rem; //37.3px
-$whmid: 2.037rem; //32.6px
-$whmin: 1.750rem; //28px
-$whmni: 1.143rem; //18.3px
+
 //footer
 $footmax: 1.20rem; //19.2px
 $footmid: 1.05rem; //16.8px
 $footmin: .975rem; //15.6px
 $footmni: .825rem; //13.2px
+// --------------------------------
 
 
 // --- pole ---
