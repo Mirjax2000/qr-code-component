@@ -15,37 +15,31 @@ $clr14: #7D889E;
 $clr15: #D5E1EF;
 
 
-//current color
-$current-color: currentColor;
-
 // font color
 
 // text
 $clr-txt: $clr10;
 
 // Header title, H2-awesome,H3-MyPortfolio,H2 H3-bottom
-$clr-txt-title: $clr11;
+$clr-txt-title: $clr10;
 
 // navigation links
-$clr-txt-navlinks: $clr13;
-$clr-txt-navlinks-dropdown: $clr27;
+$clr-txt-navlinks: $clr10;
 
 // hero
 $clr-txt-H2Header: $clr10;
-$clr-txt-H3SubHeader: $clr12;
 
 // icons
 $clr-icons: $clr10;
 
 // awesome,MyPortfolio paragraph
-$clr-txt-par: $clr13;
+$clr-txt-par: $clr10;
 
 // footer paragraph
-$clr-txt-footer-par: $clr16;
-$clr-txt-footer-phone: $clr16;
+$clr-txt-footer-par: $clr10;
 
 // footer links
-$clr-txt-footer-links: $clr22;
+$clr-txt-footer-links: $clr10;
 
 // buttons
 $clr-txt-btn: $clr10;
@@ -57,21 +51,10 @@ $clr-txt-btn: $clr10;
 $clr-bg-body: $clr10;
 
 $clr-bg-header: $clr10;
-$clr-bg-dropdown: $clr11;
 
-$clr-bg-active: $clr12;
-$clr-bg-NavLinks: $clr25;
+$clr-bg-active: $clr10;
 
-$clr-bg-HeroHeader: $clr11;
-
-$clr-bg-hero: $clr23;
-
-$clr-bg-MyPortoflio: $clr26;
-$clr-bg-MyPortoflio-itm: $clr10;
-
-$clr-bg-bottom: $clr11;
-$clr-bg-date: $clr12;
-$clr-bg-footer: $clr21;
+$clr-bg-footer: $clr10;
 
 // -------------------------
 
@@ -130,10 +113,10 @@ $banmin: 1.3538rem; //21.6px
 $banmni: 1.1438rem; //18.3px
 
 // paragraph
-$pgmax: $navmax; //21.3px
-$pgmid: $navmid; //18.6px
-$pgmin: $navmin; //17.3px
-$pgmni: $navmni; //14.6px
+// $pgmax: $navmax; //21.3px
+// $pgmid: $navmid; //18.6px
+// $pgmin: $navmin; //17.3px
+// $pgmni: $navmni; //14.6px
 
 //footer
 $footmax: 1.20rem; //19.2px
@@ -144,19 +127,19 @@ $footmni: .825rem; //13.2px
 
 
 // --- pole ---
-$pages: home, gallery, blog, contact, buttons;
+// $pages: home, gallery, blog, contact, buttons;
 
 
 // icon colors
 $icons-color: (
-    'cog':$clr12,
-    'flash':$clr11,
-    'star':$clr15,
-    'facebook':$clr20,
-    'twitter':$clr17,
-    'dribbble':$clr18,
-    'tumbler':$clr19,
-    'linkedin':$clr20,
+    'cog':$clr13,
+    'flash':$clr13,
+    'star':$clr13,
+    'facebook':$clr13,
+    'twitter':$clr13,
+    'dribbble':$clr13,
+    'tumbler':$clr13,
+    'linkedin':$clr13,
 );
 
 $btns-color: (
