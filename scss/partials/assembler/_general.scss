@@ -42,7 +42,7 @@ body {
     background-color: $clr-bg-card ;
     width: em(320, 16);
     height: em(497, 16);
-    border-radius: em($br-global, 16);
+    border-radius: em($br-card, 16);
 
     filter: drop-shadow(0px 4px 4px #00000040);
 }
@@ -55,7 +55,7 @@ body {
         background-color: $clr-bg-qrCode ;
         width: em(288, 16);
         aspect-ratio: 1/1;
-        border-radius: em($br-global, 16);
+        border-radius: em($br-qrCode, 16);
         @include flexCenter;
 
         margin-bottom: em(24, 16);
