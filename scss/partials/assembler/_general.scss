@@ -13,7 +13,7 @@ $debug: false;
 // --- HTML settings: box sizing, selection
 html {
     @include box-sizing (border-box);
-    @include selection;
+    @include selection ($clr-bg-qrCode);
     font-size: var(--font-size);
 }
 
@@ -23,22 +23,74 @@ html {
     box-sizing: inherit;
 }
 
+img {
+    vertical-align: center;
+    height: auto;
+    width: 100%;
+}
+
 body {
     font-family: $font-family-Outfit;
     font-optical-sizing: auto;
+    background-color: $clr-bg-body ;
+    height: 100dvh;
+    width: 100dvw;
+    @include flexCenter;
 }
 
-h2 {
-    font-weight: 700;
+.card {
+    background-color: $clr-bg-card ;
+    width: em(320, 16);
+    height: em(497, 16);
+    border-radius: em($br-global, 16);
+
+    filter: drop-shadow(0px 4px 4px #00000040);
 }
 
-h3 {
-    font-weight: 100;
+.inside {
+    padding: em(16, 16) em(16, 16);
+    text-align: center;
+
+    .qrCode {
+        background-color: $clr-bg-qrCode ;
+        width: em(288, 16);
+        aspect-ratio: 1/1;
+        border-radius: em($br-global, 16);
+        @include flexCenter;
+
+        margin-bottom: em(24, 16);
+        overflow: hidden;
+
+    }
+
+    // .qrCode--img {
+    //     background-color: white;
+    //     width: em(160, 16);
+    //     aspect-ratio: 1/1;
+    // }
+
+    .content {
+        padding-inline: em(16, 16);
+
+        h2 {
+            font-size: var(--heading);
+            font-weight: 700;
+            line-height: em(28, 22);
+            color: $clr-txt-heading;
+            padding-bottom: em(16, 22);
+        }
+
+        p {
+            font-size: var(--body);
+            font-weight: 400;
+            line-height: em(19, 15);
+            letter-spacing: em(0.1875, 15);
+            color: $clr-txt-body ;
+        }
+    }
+
 }
 
-p {
-    font-weight: 400;
-}
 
 
 // // backround pro font awesome icony

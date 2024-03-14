@@ -1,7 +1,7 @@
 :root {
   --font-size:100%;
-  --heading:calc(NaN);
-  --body:calc(NaN);
+  --heading:1.375rem;
+  --body:0.9375rem;
 }
 
 html {
@@ -281,11 +281,11 @@ html {
   font-size: var(--font-size);
 }
 html ::-moz-selection {
-  background-color: black;
+  background-color: #3685FF;
   color: white;
 }
 html ::selection {
-  background-color: black;
+  background-color: #3685FF;
   color: white;
 }
 
@@ -296,21 +296,75 @@ html ::selection {
           box-sizing: inherit;
 }
 
+img {
+  vertical-align: center;
+  height: auto;
+  width: 100%;
+}
+
 body {
   font-family: Outfit, sans-serif;
   font-optical-sizing: auto;
+  background-color: #D5E1EF;
+  height: 100dvh;
+  width: 100dvw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-h2 {
+.card {
+  background-color: #ffffff;
+  width: 20em;
+  height: 31.0625em;
+  border-radius: 1.25em;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2509803922));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2509803922));
+}
+
+.inside {
+  padding: 1em 1em;
+  text-align: center;
+}
+.inside .qrCode {
+  background-color: #3685FF;
+  width: 18em;
+  aspect-ratio: 1/1;
+  border-radius: 1.25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5em;
+  overflow: hidden;
+}
+.inside .content {
+  padding-inline: 1em;
+}
+.inside .content h2 {
+  font-size: var(--heading);
   font-weight: 700;
+  line-height: 1.2727272727em;
+  color: #1F314F;
+  padding-bottom: 0.7272727273em;
 }
-
-h3 {
-  font-weight: 100;
-}
-
-p {
+.inside .content p {
+  font-size: var(--body);
   font-weight: 400;
+  line-height: 1.2666666667em;
+  letter-spacing: 0.0125em;
+  color: #7D889E;
 }
 
 /*  --- header --- */

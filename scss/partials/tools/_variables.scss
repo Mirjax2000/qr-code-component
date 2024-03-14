@@ -1,4 +1,4 @@
-@forward './functions';
+@use './functions' as *;
 // ---------------------
 //   --- Variables ---
 // ---------------------
@@ -7,18 +7,20 @@
 $debug: false;
 
 // --- colors ---
-$clr10: #ffffff;
-$clr11: #2C7DFA;
-$clr12: #3685FF;
-$clr13: #1F314F;
-$clr14: #7D889E;
-$clr15: #D5E1EF;
+$clr10: #ffffff; //White
+$clr11: #2C7DFA; //Blue
+$clr12: #3685FF; //Blue Shade
+$clr13: #1F314F; //Dark Navy
+$clr14: #7D889E; //Grey
+$clr15: #D5E1EF; //Light Grey
 
 
 // font color
 
-// text
-$clr-txt: $clr10;
+// text Heading
+$clr-txt-heading: $clr13;
+// text Body
+$clr-txt-body: $clr14;
 
 // Header title, H2-awesome,H3-MyPortfolio,H2 H3-bottom
 $clr-txt-title: $clr10;
@@ -48,9 +50,11 @@ $clr-txt-btn: $clr10;
 
 // backround color
 
-$clr-bg-body: $clr10;
+$clr-bg-body: $clr15;
 
-$clr-bg-header: $clr10;
+$clr-bg-card: $clr10;
+
+$clr-bg-qrCode: $clr12;
 
 $clr-bg-active: $clr10;
 
@@ -77,7 +81,7 @@ $font-family-serif: Georgia, Times, 'Times New Roman', serif;
 // -------------------------------
 
 // --- border-radius ---
-$br-global: 5;
+$br-global: 20;
 $br-btn-radius: 5;
 
 
