@@ -51,7 +51,7 @@ body {
     text-align: center;
 
     .qrCode {
-        background-color: $clr-bg-qrCode ;
+        // background-color: $clr-bg-qrCode ;
         width: em(288, 16);
         aspect-ratio: 1/1;
         border-radius: em($br-qrCode, 16);
@@ -59,7 +59,16 @@ body {
 
         margin-bottom: em(24, 16);
         overflow: hidden;
+        position: relative;
 
+        &::after {
+            position: absolute;
+            content: "";
+            width: em(328, 16);
+            aspect-ratio: 1/1;
+            background-color: $clr-bg-circle ;
+            background-color: red($color: #000000);
+        }
     }
 
     // .qrCode--img {

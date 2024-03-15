@@ -286,11 +286,11 @@ html {
   font-size: var(--font-size);
 }
 html ::-moz-selection {
-  background-color: #3685FF;
+  background-color: #2C7DFA;
   color: white;
 }
 html ::selection {
-  background-color: #3685FF;
+  background-color: #2C7DFA;
   color: white;
 }
 
@@ -338,7 +338,6 @@ body {
   text-align: center;
 }
 .inside .qrCode {
-  background-color: #3685FF;
   width: 18em;
   aspect-ratio: 1/1;
   border-radius: 0.625em;
@@ -353,6 +352,15 @@ body {
           align-items: center;
   margin-bottom: 1.5em;
   overflow: hidden;
+  position: relative;
+}
+.inside .qrCode::after {
+  position: absolute;
+  content: "";
+  width: 20.5em;
+  aspect-ratio: 1/1;
+  background-color: #3685FF;
+  background-color: 0;
 }
 .inside .content {
   padding-inline: 1em;
