@@ -1,9 +1,11 @@
+/*   --- root css --- */
 :root {
   --font-size:100%;
   --heading:1.375rem;
   --body:0.9375rem;
 }
 
+/*   --- normalize css --- */
 html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -231,6 +233,7 @@ summary {
   display: list-item;
 }
 
+/*  --- reset css --- */
 h1,
 h2,
 h3,
@@ -262,6 +265,7 @@ img {
   vertical-align: middle;
 }
 
+/* --- typography --- */
 @font-face {
   font-family: "Outfit";
   src: url(../assets/webfonts/Font-face/Outfit-Regular.woff2) format("woff2");
@@ -274,6 +278,7 @@ img {
   src: url(../assets/webfonts/Font-face/Outfit-Bold.ttf) format("ttf");
   font-weight: 700;
 }
+/*   --- general settings --- */
 /* --- general settings --- */
 html {
   -webkit-box-sizing: border-box;
@@ -297,7 +302,7 @@ html ::selection {
 }
 
 img {
-  vertical-align: center;
+  vertical-align: middle;
   height: auto;
   width: 100%;
 }

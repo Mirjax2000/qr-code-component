@@ -1,8 +1,7 @@
 @use '../tools/' as *;
 
-
 // ----------------------------
-//   --- general settings ---
+/*   --- general settings --- */
 // ----------------------------
 
 $debug: false;
@@ -24,7 +23,7 @@ html {
 }
 
 img {
-    vertical-align: center;
+    vertical-align: middle;
     height: auto;
     width: 100%;
 }
