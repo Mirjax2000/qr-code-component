@@ -100,15 +100,16 @@ body {
                 padding-bottom: em(16, 22);
             }
 
-        p {
-            font-size: var(--body);
-            font-weight: 400;
-            line-height: em(19, 15);
-            letter-spacing: em(0.1875, 15);
-            color: $clr-txt-body ;
+            p {
+                font-size: var(--body);
+                font-weight: 400;
+                line-height: em(19, 15);
+                letter-spacing: em(0.1875, 15);
+                color: $clr-txt-body ;
+            }
         }
-    }
 
+    }
 }
 
 
